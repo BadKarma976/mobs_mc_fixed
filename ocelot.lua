@@ -187,7 +187,10 @@ mobs:spawn({
 				local offset = offsets[o]
 				local child_pos = vector.add(pos, offsets[o])
 				table.remove(offsets, o)
-				make_child(minetest.add_entity(child_pos, "mobs_mc:ocelot"))
+				local entity = minetest.add_entity(child_pos, "mobs_mc:ocelot")
+				if entity then
+					make_child(entity)
+				end
 			end
 		end
 	end,
