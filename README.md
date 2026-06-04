@@ -12,6 +12,7 @@ This fork was created to fix compatibility and syntax issues that mobs_mc had.
 * [22i](https://github.com/22i): Models (done in Blender) and mob icons for spawn eggs
 * [XSSheep](https://www.planetminecraft.com/member/xssheep/): Mob and item textures (from [Pixel Perfection](https://www.planetminecraft.com/texture_pack/131pixel-perfection/))
 * MysticTempest: More mob textures
+* And... \*_drumroll please_\*... ME! For fixing syntax crashes related to this mod.
 * See `LICENSE_media.md` for detailed credits about each file
 
 ## Licensing
